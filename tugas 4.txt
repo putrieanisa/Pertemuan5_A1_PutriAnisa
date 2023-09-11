@@ -1,0 +1,10 @@
+n = int(input("Masukkan banyaknya data: "))
+total = 0
+
+for i in range(n):
+    nilai = float(input("Masukkan nilai ke-{}: ".format(i+1)))
+    total += nilai
+
+rata = total/n
+
+print("Rata-rata dari {} data adalah {}".format(n, rata))
